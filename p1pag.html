@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujos animados</title>
+    <style type="text/css">
+        @media screen and (max-width:1600px){
+            img {
+                width: 100%;
+            }
+        }
+        .adaptable {
+            font-size: 5vw;
+        }
+        h1 {font-size: 10vw;}
+        * {
+            box-sizing: border-box;
+        }
+        .izquierda {
+            background-color: blueviolet;
+            padding: 20px;
+            float:center;
+            width: 50%;
+        }
+        .derecha {
+            background-color:cornflowerblue ;
+            padding: 20px;
+            float: center;
+            width: 50%;
+        }
+        @media screen and (max-width:800px) {
+            .izquierda, .derecha {
+                width: 100%;
+            }
+        }
+        </style>
+</head>
+<body>
+    <h1>Dibujos animados</h1>
+    <hr>
+    <h2>Un Show Más</h2>
+    <img src="rs.jpg">
+    <h3>Aquí algunas imágenes</h3>
+    <picture>
+        <source srcset="chica.jpg" media="(max-width: 320px)">
+        <source srcset="mediana.jpg" media="(max-width: 600px)">
+        <source srcset="grande.png" media="(max-width: 1200px)">
+        <img src="grande.png">
+    </picture>
+    <h2>Información sobre la serie</h2>
+    <p class="adaptable">"Un Show Más", también conocida como Regular Show, fue estrenada en 2010 y finalizó en 2017, constó de 8 temporadas, en el canal Cartoon Network. Su trama era episódica, y se trataba de las historias poco comúnes que vivían Mordecai, Rigby y sus compañeros del parque, lugar recurrente en este show. La serie se hizo popular gracias a sus referencias a la cultura popular, específicamente, a los años 80. </p>
+    <p style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><h2>¿Te gustó la página?</h2></p>
+    <div class="izquierda">
+        <a href="mailto:josetadeoruizo19.ce128@gmail.com">Envía un correo al creador</a>
+        </div>
+        <div class="derecha">
+         <p>Gracias por visitarnos</p>   
+        </div>
+</body>
+</html>

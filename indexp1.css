@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.menui {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.menui a {
+    background-color:#0b82e4;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+.centro {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+
+}
+.derecho {
+    background-color: #0b82e4;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+@media only screen and (max-width:620px) {
+    .menui, .centro, .derecho {
+        width:100%;
+    }
+}
